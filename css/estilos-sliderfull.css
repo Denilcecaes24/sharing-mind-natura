@@ -1,0 +1,317 @@
+#seccion4 .cont_sliderfull{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#seccion4 .cont_sliderfull .swiper {
+    width: 100%;
+    height: 100%;
+
+}
+
+#seccion4 .cont_sliderfull .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-radius: 0px;
+    border: 0;
+    position: relative;
+}
+
+#seccion4  .cont_sliderfull .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    mask-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
+}
+
+#seccion4 .cont_sliderfull .swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#seccion4 .cont_sliderfull .swiper .swiper-button-prev::after,
+.swiper-button-next::after {
+   
+    color: #ffffff;
+}
+
+#seccion4 .cont_sliderfull .swiper .swiper-pagination-bullet{
+    background-color: rgb(209, 209, 209);
+ }
+ 
+ #seccion4 .cont_sliderfull .swiper .swiper-pagination-bullet-active{
+     background-color: orange;
+  }
+
+
+
+
+
+
+/* slider casos */
+
+#seccioncasos .box-casos-ex{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#seccioncasos .box-casos-ex .swiper {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#seccioncasos .box-casos-ex .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    border: 0;
+    position: relative;
+    border-radius: 0;
+}
+
+#seccioncasos .box-casos-ex .bg_img1 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url(../img/imgs_def/img_025.jpeg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+
+}
+
+#seccioncasos .box-casos-ex .bg_img2 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url(../img/imgs_def/img_026.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+
+}
+
+#seccioncasos .box-casos-ex .bg_img3 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url(../img/imgs_def/premiacion-natura-full.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+#seccioncasos .box-casos-ex .bg_img4 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url(../img/imgs_def/convencion-natura.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+#seccioncasos .box-casos-ex .bg_img5 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url(../img/imgs_def/convencion-natura-2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+/*
+#seccioncasos  .box-casos-ex .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+    */
+
+#seccioncasos .box-casos-ex .swiper-slide .slider_title {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    padding: 10px 0;
+    border-radius: 5px;
+
+}
+
+#seccioncasos .box-casos-ex .swiper-slide .slider_title h3{
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+
+#seccioncasos .box-casos-ex .swiper-slide .slider_txt {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#seccioncasos .box-casos-ex .swiper-slide .slider_txt .tit_info{
+    width: 85%;
+    height: auto;
+    padding: 0;
+    margin: 0 8px 0 0; 
+    background-color:;
+}
+
+#seccioncasos .box-casos-ex .swiper-slide .slider_txt h4 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: start;
+    padding: 0;
+    margin: 0 0 5px 0;
+}
+
+#seccioncasos .box-casos-ex .swiper-slide .slider_txt p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: start;
+    background-color:;
+    padding: 0;
+    margin: 0;
+}
+
+#seccioncasos .box-casos-ex .swiper-slide .slider_txt button {
+    background-color: orange;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#seccioncasos .box-casos-ex .swiper-slide .slider_txt button:hover {
+    background-color: yellow;
+    border: 1px solid orange;
+    color: orange;
+    text-decoration: underline;
+}
+
+#seccioncasos .box-casos-ex .swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#seccioncasos .box-casos-ex .swiper .swiper-button-prev::after,
+.swiper-button-next::after {
+   
+    color: #ffffff;
+}
+
+#seccioncasos .box-casos-ex .swiper .swiper-pagination-bullet{
+    background-color: rgb(209, 209, 209);
+ }
+ 
+ #seccioncasos .box-casos-ex .swiper .swiper-pagination-bullet-active{
+     background-color: orange;
+  }
+
+
+  @media (max-width: 599px) {
+
+    #seccion4 .cont_sliderfull{
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #seccioncasos .box-casos-ex{
+        width: 100%;
+        height: 440px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #seccioncasos .box-casos-ex .swiper {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    #seccioncasos .box-casos-ex .swiper-slide .slider_title h3{
+    
+        font-size: 20px;
+    
+    }
+
+    #seccioncasos .box-casos-ex .swiper-slide .slider_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    #seccioncasos .box-casos-ex .swiper-slide .slider_txt .tit_info{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0 0 8px 0; 
+        background-color:;
+    }
+    
+
+
+    #seccioncasos .box-casos-ex .swiper-slide .slider_txt p{
+        font-size: 14px;
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+
+    #seccioncasos .box-casos-ex .swiper-slide .slider_txt button {
+        border-radius: 5px;
+        font-size: 14px;
+        margin: 0;
+        padding: 10px 10px;
+    
+    }
+
+    #seccioncasos .box-casos-ex .swiper .swiper-button-prev::after {
+   
+    color: #fffd82;
+    font-size: 30px;
+}
+
+#seccioncasos .box-casos-ex .swiper
+.swiper-button-next::after {
+
+color: #fffd82;
+font-size: 30px;
+}
+
+}
